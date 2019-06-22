@@ -30,6 +30,7 @@
   },
   "homepage": "https://github.com/soulman-is-good/node-ssp",
   "dependencies": {
+    "escpos": "^2.4.11",
     "serialport": "^3.0.0"
   }
 }

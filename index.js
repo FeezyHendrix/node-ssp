@@ -91,7 +91,7 @@ var SSPInstance = Class.extend({
       initializeDevice();
     }
     function initializeDevice () {
-      port = new serialport.SerialPort(options.device, {
+      port = new serialport(options.device, {
         baudrate: options.baudrate,
         databits: options.databits,
         stopbits: options.stopbits,
